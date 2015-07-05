@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For NtpServer
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+NtpPacket			KEYWORD1
+NtpServer			KEYWORD1
+ITimeSource			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+leapIndicator		KEYWORD2
+versionNumber		KEYWORD2
+mode				KEYWORD2
+swapEndian			KEYWORD2
+populatePacket		KEYWORD2
+beginListening		KEYWORD2
+processOneRequest	KEYWORD2
+getLastClientIP		KEYWORD2
+now					KEYWORD2
+timeRecv			KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PACKET_SIZE			LITERAL1
+NTP_PORT			LITERAL1
